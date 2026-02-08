@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<button class="toggle-btn" id="toggleBtn" aria-label="Toggle menu">☰</button>
+
+<aside class="sidebar" id="sidebar">
+  <div class="logo">
+    <span class="logo-icon">🍕</span>
+    <span class="logo-text">Pizza Hut</span>
+  </div>
+
+  <nav class="menu">
+    <a class="menu-item active">
+      <span class="icon">🏠</span>
+      <span class="text">home</span>
+    </a>
+    <a class="menu-item">
+      <span class="icon">📜</span>
+      <span class="text">menu</span>
+    </a>
+    <a class="menu-item">
+      <span class="icon">🔥</span>
+      <span class="text">specials</span>
+    </a>
+    <a class="menu-item">
+      <span class="icon">🛒</span>
+      <span class="text">order</span>
+    </a>
+    <a class="menu-item">
+      <span class="icon">📍</span>
+      <span class="text">locations</span>
+    </a>
+  </nav>
+</aside>
+
+<div class="overlay" id="overlay"></div>
+
+<main class="content">
+  <section id="home" class="page active">
+    <h1>Welcome to Pizza Hut 🍕</h1>
+    <p>
+      Handcrafted pizzas made fresh daily using premium ingredients,
+      slow fermented dough, and stone oven perfection.
+    </p>
+  </section>
+
+  <section id="menu" class="page">
+    <h1>Our Menu 📜</h1>
+    <p>
+      Classics like Margherita & Pepperoni, plus gourmet favorites
+      including BBQ Chicken and Truffle Mushroom.
+    </p>
+    <p>
+      Vegan & gluten free options available.
+    </p>
+  </section>
+
+  <section id="specials" class="page">
+    <h1>Today Special 🔥</h1>
+    <p>
+      🍕 Buy 1 Get 1 Free (Medium Pizza)<br/>
+      🧀 Free Extra Cheese Upgrade<br/>
+      🥤 Free Drink with Large Orders
+    </p>
+  </section>
+
+  <section id="order" class="page">
+    <h1>Order Online 🛒</h1>
+    <p>
+      Fast pickup or delivery with secure checkout and real time
+      order tracking.
+    </p>
+  </section>
+
+  <section id="locations" class="page">
+    <h1>Our Locations 📍</h1>
+    <p>
+      Downtown – 123 Main Street<br/>
+      Uptown – 456 Oak Avenue<br/>
+      Riverside – 789 River Road
+    </p>
+    <p>Open daily from 11:00 AM – 11:00 PM</p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
