@@ -17,6 +17,7 @@ Built an interactive sidebar that can be toggled open and closed with smooth ani
 
 **Concepts Covered:**  
 HTML | CSS | JavaScript | Component Layout | Animation | Toggle Logic
+
 ---
 
 **Task 2: Contact Form**  
