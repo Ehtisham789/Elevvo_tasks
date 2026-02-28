@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* Canvas */
+#weatherCanvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+/* App Glassmorphism */
+.app {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 25px;
+  backdrop-filter: blur(25px);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Header */
+.top-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.header-left {
+  justify-self: start;
+}
+
+.app-name {
+  text-align: center;
+}
+
+.app-name h1 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.search-box {
+  display: flex;
+  justify-self: end;
+  background: rgba(255,255,255,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  padding: 10px 15px;
+  color: white;
+  outline: none;
+}
+
+.search-box button {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.15);
+  color: white;
+}
+
+/* Cards */
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* Layout */
+.weather-section {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 20px;
+}
+
+.weather-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.weather-main img {
+  width: 80px;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+}
+
+.forecast-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.forecast-item {
+  width: 120px;
+  text-align: center;
+}
+
+.forecast-item img {
+  width: 70px;
+}
+
+.forecast-item p {
+  margin-top: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .weather-section {
+    grid-template-columns: 1fr;
+  }
+
+  .top-header {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .search-box {
+    justify-self: center;
+  }
+
+  .forecast-grid {
+    justify-content: center;
+  }
+}
+
+.loading {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.hidden {
+  display: none;
+}

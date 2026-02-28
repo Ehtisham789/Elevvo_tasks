@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyCast Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="weatherCanvas"></canvas>
+
+<div class="app">
+
+  <header class="top-header">
+
+    <!-- Left Side -->
+    <div class="header-left">
+      <h3 id="greeting">Good Morning</h3>
+      <p id="today-date"></p>
+    </div>
+
+    <!-- Center App Name -->
+    <div class="app-name">
+      <h1>SkyCast Pro</h1>
+    </div>
+
+    <!-- Right Search -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search your location..." />
+      <button id="searchBtn">🔍</button>
+    </div>
+
+  </header>
+
+  <section class="weather-section">
+
+    <div class="card current-weather">
+      <h2 id="cityName">Loading...</h2>
+      <div class="weather-main">
+        <img id="weatherIcon" />
+        <div>
+          <h1 id="temperature">--°C</h1>
+          <p id="description"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card highlights">
+      <h3>Today's Highlight</h3>
+      <div class="highlight-grid">
+        <div class="highlight-item">
+          <p>Humidity</p>
+          <h4 id="humidity">--%</h4>
+        </div>
+        <div class="highlight-item">
+          <p>Wind</p>
+          <h4 id="wind">-- m/s</h4>
+        </div>
+        <div class="highlight-item">
+          <p>Pressure</p>
+          <h4 id="pressure">-- hPa</h4>
+        </div>
+        <div class="highlight-item">
+          <p>Feels Like</p>
+          <h4 id="feelsLike">--°C</h4>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="card forecast">
+    <h3>3 Day Forecast</h3>
+    <div class="forecast-grid" id="forecastContainer"></div>
+  </section>
+
+</div>
+
+<div id="loading" class="loading hidden">Loading...</div>
+
+<script src="app.js"></script>
+</body>
+</html>
