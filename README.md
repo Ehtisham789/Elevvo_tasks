@@ -5,7 +5,7 @@ Each task focuses on strengthening core frontend concepts such as responsive des
 
 **Tasks Overview**
 
-**Task 1: Collapsible Sidebar**
+**Task 1: Collapsible Sidebar**  
 Built an interactive sidebar that can be toggled open and closed with smooth animations.
 
 **Key Features:**
@@ -15,11 +15,11 @@ Built an interactive sidebar that can be toggled open and closed with smooth ani
 + Clean layout with animation
 + Mobile responsiveness (Bonus)
 
-**Concepts Covered:**
+**Concepts Covered:**  
 HTML | CSS | JavaScript | Component Layout | Animation | Toggle Logic
 
 
-**Task 2: Contact Form**
+**Task 2: Contact Form**  
 Created a responsive contact form designed to work across all screen sizes.
 
 **Key Features:**
@@ -28,11 +28,11 @@ Created a responsive contact form designed to work across all screen sizes.
 + Mobile friendly design
 + Basic form validation using JavaScript
 
-**Concepts Covered:**
+**Concepts Covered:**  
 Forms | Responsive Design | CSS Styling | Input Validation
 
 
-**Task 3: One Page Task App Website**
+**Task 3: One Page Task App Website**  
 Designed a modern landing page for a fictional productivity app TaskFlow.
 
 **Key Sections:**
@@ -43,11 +43,11 @@ Designed a modern landing page for a fictional productivity app TaskFlow.
 + Footer with social links
 + Scroll based animations 
 
-**Concepts Covered:**
+**Concepts Covered:**  
 Component Design | Responsive Layout | UI Structuring | React Basics
 
 
-**Task 4: Personal Blog Homepage**
+**Task 4: Personal Blog Homepage**  
 Developed a blog homepage using a card based layout.
 
 **Key Features:**
@@ -57,11 +57,11 @@ Developed a blog homepage using a card based layout.
 + Post limit per page
 + Search functionality
 
-**Concepts Covered:**
+**Concepts Covered:**  
 Props & State | Conditional Rendering | Filtering | Responsive Grid
 
 
-**Task 5: Tech Product Landing Page**
+**Task 5: Tech Product Landing Page**  
 Built a marketing landing page for a fictional SaaS product.
 
 **Key Sections:**
@@ -72,11 +72,11 @@ Built a marketing landing page for a fictional SaaS product.
 + Call to Action
 + Light/Dark mode toggle
 
-**Concepts Covered:**
+**Concepts Covered:**  
 Responsive Design | UX Writing | Layout Structuring | Theme Switching
 
 
-**Task 6: Freelance Client Dashboard**
+**Task 6: Freelance Client Dashboard**  
 Created a multi page admin dashboard interface.
 
 **Pages Included:**
@@ -90,11 +90,11 @@ Created a multi page admin dashboard interface.
 + Charts for data visualization
 + Notification dropdown 
 
-**Concepts Covered:**
+**Concepts Covered:**  
 React Router | Reusable Components | Charts | Multi Page UI
 
 
-**Task 7: Weather Dashboard (API Based)**
+**Task 7: Weather Dashboard (API Based)**  
 Developed a real time weather dashboard using API.
 
 **Key Features:**
@@ -104,11 +104,11 @@ Developed a real time weather dashboard using API.
 + Loading states
 + Auto detect user location
 
-**Concepts Covered:**
+**Concepts Covered:**  
 API Integration | Async Operations | DOM Manipulation | Dynamic Rendering
 
 
-**Task 8: Job Application Tracker**
+**Task 8: Job Application Tracker**  
 Built a full frontend job tracking web application.
 
 **Key Features:**
@@ -119,7 +119,7 @@ Built a full frontend job tracking web application.
 + Data stored in LocalStorage
 + Import / Export JSON 
 
-**Concepts Covered:**
+**Concepts Covered:**  
 State Management | Routing | Form Handling | Local Storage
 
 
