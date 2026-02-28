@@ -32,6 +32,7 @@ Created a responsive contact form designed to work across all screen sizes.
 **Concepts Covered:**  
 Forms | Responsive Design | CSS Styling | Input Validation
 
+---
 
 **Task 3: One Page Task App Website**  
 Designed a modern landing page for a fictional productivity app TaskFlow.
@@ -47,6 +48,7 @@ Designed a modern landing page for a fictional productivity app TaskFlow.
 **Concepts Covered:**  
 Component Design | Responsive Layout | UI Structuring | React Basics
 
+---
 
 **Task 4: Personal Blog Homepage**  
 Developed a blog homepage using a card based layout.
@@ -61,6 +63,7 @@ Developed a blog homepage using a card based layout.
 **Concepts Covered:**  
 Props & State | Conditional Rendering | Filtering | Responsive Grid
 
+---
 
 **Task 5: Tech Product Landing Page**  
 Built a marketing landing page for a fictional SaaS product.
@@ -76,6 +79,7 @@ Built a marketing landing page for a fictional SaaS product.
 **Concepts Covered:**  
 Responsive Design | UX Writing | Layout Structuring | Theme Switching
 
+---
 
 **Task 6: Freelance Client Dashboard**  
 Created a multi page admin dashboard interface.
@@ -94,6 +98,7 @@ Created a multi page admin dashboard interface.
 **Concepts Covered:**  
 React Router | Reusable Components | Charts | Multi Page UI
 
+---
 
 **Task 7: Weather Dashboard (API Based)**  
 Developed a real time weather dashboard using API.
@@ -108,6 +113,7 @@ Developed a real time weather dashboard using API.
 **Concepts Covered:**  
 API Integration | Async Operations | DOM Manipulation | Dynamic Rendering
 
+---
 
 **Task 8: Job Application Tracker**  
 Built a full frontend job tracking web application.
@@ -123,6 +129,7 @@ Built a full frontend job tracking web application.
 **Concepts Covered:**  
 State Management | Routing | Form Handling | Local Storage
 
+---
 
 These tasks were designed to simulate real world frontend development challenges and helped strengthen practical skills in building responsive interfaces, managing application state, integrating APIs, and creating user friendly layouts.
 
